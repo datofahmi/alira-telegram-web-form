@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fahmi's Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hai Fahmi!</h1>
+    <div id="datetime"></div>
+
+    <h2>Hantar Mesej Kepada Saya</h2>
+    <form id="messageForm">
+      <input type="text" id="userName" placeholder="Nama anda" required>
+      <textarea id="userMessage" placeholder="Tulis mesej anda di sini..." required></textarea>
+      <button type="submit">Hantar Mesej</button>
+    </form>
+
+    <div id="confirmationMessage" style="display:none;">Mesej anda telah dihantar! Terima kasih.</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
